@@ -10,7 +10,7 @@ public class ThreadSafeSingleton
 	// Prevent direct access to the constructor
 	private ThreadSafeSingleton() 
 	{
-		super();
+		super(); //Anything huh!!!
 	}
 	
 	public static ThreadSafeSingleton getInstance()

@@ -24,7 +24,9 @@ public class ThreadSafeSingleton
 			{			
 				if (myInstance == null) 
 				{
+					
 					myInstance = new ThreadSafeSingleton();
+					
 				}			
 			}
 		}
